@@ -1,0 +1,10 @@
+body{
+    padding-bottom: 5%;
+}
+.sidebar{
+    position: fixed;
+    padding-top: 3%;
+}
+.main{
+    padding-top: 1%;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="https://bootswatch.com/3/yeti/bootstrap.min.css">
+    <link rel="stylesheet" href="">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand" >Libros & Co.</div>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" action="scripts/iniciar-sesion.php" method="POST">
+            <div class="form-group">
+              <input type="text" placeholder="Usuario" class="form-control" name="txtUsuario">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Contraseña" class="form-control" name="txtClave">
+            </div>
+            <button type="submit" class="btn btn-success">Iniciar sesión</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>¡Bienvenido a Libros & Co.!</h1>
+        <p>¡Aquí podrás encontrar diferentes categorías de libros y aprender sobre ellas!</p>
+        <p>Identifícate como usuario o como administrador en el banner superior para acceder a nuestra web</p>
+        <p><a class="btn btn-primary btn-lg" href="leerMas.html" role="button" name="leer">Leer más &raquo;</a></p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Historia</h2>
+          <p>Nuestra web se funda en 2024 con el afán de transmitir a los usuarios nuestra pasión por la lectura.</p>
+        </div>
+        <div class="col-md-4">
+          <h2>Trabaja con nosotros</h2>
+          <p>Somos un grupo de amantes de los libros con ganas de aportar conocimientos a las personas que estén interesadas en recibirlos.</p>         
+       </div>
+        <div class="col-md-4">
+          <h2>¿Quienes somos?</h2>
+          <p>En Libros & Co. siempre estamos buscando peronal. Si te apasiona la lectura y la programación web no dudes en ponerte en contacto con nostros a través de nuestro email: libros@co.com.</p>
+        </div>
+      </div>
+      <hr>
+      <footer>
+        <p>&copy; Libros & Co. 2024</p>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
